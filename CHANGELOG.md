@@ -8,6 +8,34 @@ All Notable changes to `Backpack CRUD` will be documented in this file.
 
 -----------
 
+## 4.0.35 - 2020-01-23
+
+### Fixed
+- merged #2389 - print button on Show operation (aka Preview);
+- merged #2386 - overwrite new loggedOut() method in LoginController instead of logout();
+- merged #2395 - simplemde field should not download FontAwesome;
+
+
+## 4.0.34 - 2020-01-20
+
+### Fixed
+- merged #2377 - updated Chinese translation;
+- merged #2359 - fix field label generation when name is an array;
+
+
+## 4.0.33 - 2020-01-15
+
+### Fixed
+- merged #2353 - markdown column does not show error when null on Laravel 6.10+;
+
+
+## 4.0.32 - 2020-01-14
+
+### Added
+- merged #2351 & #2352 - Indonesian language file;
+- merged #2369 - fixes #2365 and #2366 - browse_multiple field type had an extra php tag;
+
+
 ## 4.0.31 - 2020-01-03
 
 ### Fixed
