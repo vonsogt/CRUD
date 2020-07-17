@@ -17,6 +17,7 @@ return [
     'save_action_save_and_new'         => 'Save and new item',
     'save_action_save_and_edit'        => 'Save and edit this item',
     'save_action_save_and_back'        => 'Save and back',
+    'save_action_save_and_preview'     => 'Save and preview',
     'save_action_changed_notification' => 'Default behaviour after saving has been changed.',
 
     // Create form
@@ -29,18 +30,6 @@ return [
     'edit'                 => 'Edit',
     'save'                 => 'Save',
 
-    // Revisions
-    'revisions'            => 'Revisions',
-    'no_revisions'         => 'No revisions found',
-    'created_this'         => 'created this',
-    'changed_the'          => 'changed the',
-    'restore_this_value'   => 'Restore this value',
-    'from'                 => 'from',
-    'to'                   => 'to',
-    'undo'                 => 'Undo',
-    'revision_restored'    => 'Revision successfully restored',
-    'guest_user'           => 'Guest User',
-
     // Translatable models
     'edit_translations' => 'Translation',
     'language'          => 'Language',
@@ -49,6 +38,7 @@ return [
     'all'                       => 'All ',
     'in_the_database'           => 'in the database',
     'list'                      => 'List',
+    'reset'                     => 'Reset',
     'actions'                   => 'Actions',
     'preview'                   => 'Preview',
     'delete'                    => 'Delete',
@@ -86,15 +76,15 @@ return [
     // DataTables translation
     'emptyTable'     => 'No data available in table',
     'info'           => 'Showing _START_ to _END_ of _TOTAL_ entries',
-    'infoEmpty'      => 'Showing 0 to 0 of 0 entries',
+    'infoEmpty'      => 'No entries',
     'infoFiltered'   => '(filtered from _MAX_ total entries)',
-    'infoPostFix'    => '',
+    'infoPostFix'    => '.',
     'thousands'      => ',',
-    'lengthMenu'     => '_MENU_ records per page',
+    'lengthMenu'     => '_MENU_ entries per page',
     'loadingRecords' => 'Loading...',
     'processing'     => 'Processing...',
-    'search'         => 'Search: ',
-    'zeroRecords'    => 'No matching records found',
+    'search'         => 'Search',
+    'zeroRecords'    => 'No matching entries found',
     'paginate'       => [
         'first'    => 'First',
         'last'     => 'Last',
@@ -152,6 +142,9 @@ return [
     'internal_link_placeholder' => 'Internal slug. Ex: \'admin/page\' (no quotes) for \':url\'',
     'external_link'             => 'External link',
     'choose_file'               => 'Choose file',
+    'new_item'                  => 'New Item',
+    'select_entry'              => 'Select an entry',
+    'select_entries'            => 'Select entries',
 
     //Table field
     'table_cant_add'    => 'Cannot add new :entity',
@@ -159,4 +152,8 @@ return [
 
     // File manager
     'file_manager' => 'File Manager',
+
+    // InlineCreateOperation
+    'related_entry_created_success' => 'Related entry has been created and selected.',
+    'related_entry_created_error' => 'Could not create related entry.',
 ];
